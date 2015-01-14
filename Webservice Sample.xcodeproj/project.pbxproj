@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B712C41EC1208C03EE4E0017 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 86EB47FCE1DEE18BA5723BFF /* libPods.a */; };
+		BE2466F81A66A9620076E741 /* ProtocolClass.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2466F71A66A9620076E741 /* ProtocolClass.m */; };
 		BE4891EC1A6670E300A3B9B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE4891EB1A6670E300A3B9B7 /* Foundation.framework */; };
 		BE4891EE1A6670E300A3B9B7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE4891ED1A6670E300A3B9B7 /* CoreGraphics.framework */; };
 		BE4891F01A6670E300A3B9B7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE4891EF1A6670E300A3B9B7 /* UIKit.framework */; };
@@ -22,6 +24,9 @@
 		BE4892101A6670E300A3B9B7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE4891EF1A6670E300A3B9B7 /* UIKit.framework */; };
 		BE4892181A6670E300A3B9B7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE4892161A6670E300A3B9B7 /* InfoPlist.strings */; };
 		BE48921A1A6670E300A3B9B7 /* Webservice_SampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE4892191A6670E300A3B9B7 /* Webservice_SampleTests.m */; };
+		BE48925B1A66720200A3B9B7 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE48925A1A66720200A3B9B7 /* MobileCoreServices.framework */; };
+		BE48925D1A66720A00A3B9B7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE48925C1A66720A00A3B9B7 /* Security.framework */; };
+		BE4892611A66726400A3B9B7 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE4892601A66726400A3B9B7 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6A05B6E01729DFC85DF271DC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		86EB47FCE1DEE18BA5723BFF /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1DDAEBCC75D183C49BE3303 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		BE2466F61A66A9620076E741 /* ProtocolClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProtocolClass.h; sourceTree = "<group>"; };
+		BE2466F71A66A9620076E741 /* ProtocolClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProtocolClass.m; sourceTree = "<group>"; };
 		BE4891E81A6670E300A3B9B7 /* Webservice Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Webservice Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE4891EB1A6670E300A3B9B7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BE4891ED1A6670E300A3B9B7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -55,6 +65,13 @@
 		BE4892151A6670E300A3B9B7 /* Webservice SampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Webservice SampleTests-Info.plist"; sourceTree = "<group>"; };
 		BE4892171A6670E300A3B9B7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BE4892191A6670E300A3B9B7 /* Webservice_SampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Webservice_SampleTests.m; sourceTree = "<group>"; };
+		BE48925A1A66720200A3B9B7 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		BE48925C1A66720A00A3B9B7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		BE48925E1A66724600A3B9B7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		BE4892601A66726400A3B9B7 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		BE4892621A66738400A3B9B7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		BE4892641A66739100A3B9B7 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		BE4892661A6673D400A3B9B7 /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,9 +79,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE4892611A66726400A3B9B7 /* CoreLocation.framework in Frameworks */,
 				BE4891EE1A6670E300A3B9B7 /* CoreGraphics.framework in Frameworks */,
+				BE48925D1A66720A00A3B9B7 /* Security.framework in Frameworks */,
+				BE48925B1A66720200A3B9B7 /* MobileCoreServices.framework in Frameworks */,
 				BE4891F01A6670E300A3B9B7 /* UIKit.framework in Frameworks */,
 				BE4891EC1A6670E300A3B9B7 /* Foundation.framework in Frameworks */,
+				B712C41EC1208C03EE4E0017 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +102,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		501720A39F756050F330594D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6A05B6E01729DFC85DF271DC /* Pods.debug.xcconfig */,
+				A1DDAEBCC75D183C49BE3303 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		BE4891DF1A6670E300A3B9B7 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +118,7 @@
 				BE4892131A6670E300A3B9B7 /* Webservice SampleTests */,
 				BE4891EA1A6670E300A3B9B7 /* Frameworks */,
 				BE4891E91A6670E300A3B9B7 /* Products */,
+				501720A39F756050F330594D /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,10 +134,18 @@
 		BE4891EA1A6670E300A3B9B7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BE4892661A6673D400A3B9B7 /* libz.1.1.3.dylib */,
+				BE4892641A66739100A3B9B7 /* CFNetwork.framework */,
+				BE4892621A66738400A3B9B7 /* AVFoundation.framework */,
+				BE4892601A66726400A3B9B7 /* CoreLocation.framework */,
+				BE48925E1A66724600A3B9B7 /* SystemConfiguration.framework */,
+				BE48925C1A66720A00A3B9B7 /* Security.framework */,
+				BE48925A1A66720200A3B9B7 /* MobileCoreServices.framework */,
 				BE4891EB1A6670E300A3B9B7 /* Foundation.framework */,
 				BE4891ED1A6670E300A3B9B7 /* CoreGraphics.framework */,
 				BE4891EF1A6670E300A3B9B7 /* UIKit.framework */,
 				BE48920D1A6670E300A3B9B7 /* XCTest.framework */,
+				86EB47FCE1DEE18BA5723BFF /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -120,6 +159,8 @@
 				BE4892001A6670E300A3B9B7 /* Main_iPad.storyboard */,
 				BE4892031A6670E300A3B9B7 /* ViewController.h */,
 				BE4892041A6670E300A3B9B7 /* ViewController.m */,
+				BE2466F61A66A9620076E741 /* ProtocolClass.h */,
+				BE2466F71A66A9620076E741 /* ProtocolClass.m */,
 				BE4892061A6670E300A3B9B7 /* Images.xcassets */,
 				BE4891F21A6670E300A3B9B7 /* Supporting Files */,
 			);
@@ -162,9 +203,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BE48921D1A6670E300A3B9B7 /* Build configuration list for PBXNativeTarget "Webservice Sample" */;
 			buildPhases = (
+				D098F2C5B01BCA71598BA88D /* Check Pods Manifest.lock */,
 				BE4891E41A6670E300A3B9B7 /* Sources */,
 				BE4891E51A6670E300A3B9B7 /* Frameworks */,
 				BE4891E61A6670E300A3B9B7 /* Resources */,
+				58FFD315A43359A5C7786E0A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -248,6 +291,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		58FFD315A43359A5C7786E0A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D098F2C5B01BCA71598BA88D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BE4891E41A6670E300A3B9B7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -255,6 +331,7 @@
 			files = (
 				BE4892051A6670E300A3B9B7 /* ViewController.m in Sources */,
 				BE4891FC1A6670E300A3B9B7 /* AppDelegate.m in Sources */,
+				BE2466F81A66A9620076E741 /* ProtocolClass.m in Sources */,
 				BE4891F81A6670E300A3B9B7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -387,12 +464,14 @@
 		};
 		BE48921E1A6670E300A3B9B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A05B6E01729DFC85DF271DC /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Webservice Sample/Webservice Sample-Prefix.pch";
 				INFOPLIST_FILE = "Webservice Sample/Webservice Sample-Info.plist";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -400,12 +479,14 @@
 		};
 		BE48921F1A6670E300A3B9B7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1DDAEBCC75D183C49BE3303 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Webservice Sample/Webservice Sample-Prefix.pch";
 				INFOPLIST_FILE = "Webservice Sample/Webservice Sample-Info.plist";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -470,6 +551,7 @@
 				BE48921F1A6670E300A3B9B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BE4892201A6670E300A3B9B7 /* Build configuration list for PBXNativeTarget "Webservice SampleTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +560,7 @@
 				BE4892221A6670E300A3B9B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

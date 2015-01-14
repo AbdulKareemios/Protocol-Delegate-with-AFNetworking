@@ -7,8 +7,8 @@
 //
 
 #import "ViewController.h"
-
-@interface ViewController ()
+#import "ProtocolClass.h"
+@interface ViewController ()<ProcessDataDelegate>
 
 @end
 
@@ -18,7 +18,16 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    ProtocolClass *objProtocol =[[ProtocolClass alloc]init];
+    [objProtocol setDelegate:self];
+    
+    [objProtocol startProcess];
 }
+-(void)processSuccessful:(id)success
+{
+    NSLog(@"got result %@",success);
+}
+
 
 - (void)didReceiveMemoryWarning
 {
